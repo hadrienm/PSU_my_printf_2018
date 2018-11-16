@@ -112,7 +112,8 @@ int my_printf(char *str, ...)
   va_end(ap);
 }
 
-void main(void)
+/*void main(void)
 {
     my_printf("test: %d \n", 1);
 }
+*/
