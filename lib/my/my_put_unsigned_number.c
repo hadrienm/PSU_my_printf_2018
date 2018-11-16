@@ -5,9 +5,10 @@
 ** display unsigned int
 */
 
+int my_put_unsigned_number(unsigned long long c)
 {
 unsigned long long m = 1;
-  unsigned long long resultat = 0;
+unsigned long long resultat = 0;
 
   	while (m <= c)
     	m *= 10;
