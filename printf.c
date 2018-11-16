@@ -17,8 +17,9 @@ int my_printf(char *str, ...)
 
     va_start(ap, str);
     for (int i = 0; str[i] != '\0'; i++) {
+      //printf("coucou");
         if (str[i] == '%' && str[i + 1] == 'b') {
-            printf("coucou je rentre dans le if");
+            //printf("coucou je rentre dans le if");
             convert(ap, str, i);
           }
         i = another_function(ap, str, i);
