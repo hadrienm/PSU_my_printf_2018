@@ -17,7 +17,7 @@ SRC		=		lib/my/another_function.c \
 					lib/my/my_putstr.c \
 					lib/my/my_revstr.c \
 					lib/my/convert.c \
-					printf.c
+					lib/my/printf.c
 
 all: $(NAME)
 

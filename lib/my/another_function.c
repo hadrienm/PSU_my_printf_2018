@@ -20,8 +20,8 @@ int another_function (va_list ap, char *str, int i)
         i = i + 2;
     } if (str[i] == '%' && str[i + 1] == 'u') {
         display_int_unsigned(ap);
-        i++;
+        i = i + 2;
     } else
         my_putchar(str[i]);
-        return (i);
+    return (i);
 }

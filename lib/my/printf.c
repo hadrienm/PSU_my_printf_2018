@@ -11,7 +11,7 @@
 #include <unistd.h>
 #include "my.h"
 
-int printf(char *str, ...)
+int my_printf(char *str, ...)
 {
     va_list ap;
 
