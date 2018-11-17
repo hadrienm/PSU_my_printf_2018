@@ -17,10 +17,11 @@ int printf(char *str, ...)
 
     va_start(ap, str);
     for (int i = 0; str[i] != '\0'; i++) {
-        //if (str[i] == '%' && str[i + 1] == 'b') {
-            //printf("coucou je rentre dans le if\n");
-            //convert(ap, str, i);
-          //}
+      printf("je passe par là\n ");
+        if (str[i] == '%' && str[i + 1] == 'b') {
+            printf("coucou je rentre dans le if\n");
+            convert(ap, str, i);
+          }
          i = another_function(ap, str, i);
     }
   va_end(ap);
