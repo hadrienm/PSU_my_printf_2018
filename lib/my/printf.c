@@ -13,14 +13,10 @@
 
 int my_printf(char *str, ...)
 {
-    va_list ap;
+    a_list ap;
 
     va_start(ap, str);
     for (int i = 0; str[i] != '\0'; i++) {
-        //if (str[i] == '%' && str[i + 1] == 'b') {
-            //printf("coucou je rentre dans le if\n");
-            //convert(ap, str, i);
-          //}
          i = another_function(ap, str, i);
     }
   va_end(ap);
