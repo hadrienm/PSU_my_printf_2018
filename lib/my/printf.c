@@ -13,7 +13,7 @@
 
 int my_printf(char *str, ...)
 {
-    a_list ap;
+    va_list ap;
 
     va_start(ap, str);
     for (int i = 0; str[i] != '\0'; i++) {
